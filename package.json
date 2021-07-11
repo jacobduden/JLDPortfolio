@@ -1,0 +1,25 @@
+{
+  "name": "JLDPortfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobduden/JLDPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobduden/JLDPortfolio/issues"
+  },
+  "homepage": "https://github.com/jacobduden/JLDPortfolio#readme",
+  "dependencies": {
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2",
+    "react": "^17.0.2"
+  }
+}
