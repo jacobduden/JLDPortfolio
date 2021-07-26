@@ -7,8 +7,8 @@
     margin-right: 20px
 }
 .profilepic {
-    height: 258px;
-    width: 258px;
+    height: 330px;
+    width: 330px;
     margin-right: 50px;
     margin-left: 175px;
 }
@@ -18,6 +18,68 @@
 }
 
 .abt-me-box {
-    background: rgb(226, 226, 226);
-    margin: auto;
+    background: rgb(63, 63, 63, 0.212);
+    margin-top: 300px;
+}
+.name-input  {
+  margin: 15px;
+}
+.email-input {
+    margin: 15px;
+}
+.message-input{
+    margin: 15px;
+}
+.submit-button{
+    width: 100px;
+    align-self: center;
+}
+.navBtn{
+    margin-top: 10px;
+    width: 100px;
+    background-color: rgb(140, 0, 255);
+}
+
+.navWrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+  z-index: 9999;
+    width: 100%;
+background-color: rgb(219, 219, 219);
+
+}
+.name{
+    margin-left: 20px;
+    color: rgb(140, 0, 255);
+}
+.links{
+    margin-left: 10px;
+}
+.footerWrap{
+    text-align: center;
+}
+.copyright{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.footerWrap{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(219, 219, 219);
+}
+.portWrap{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contactWrap{
+    margin-top: 300px;
+}
+.contact{
+    color: rgb(140, 0, 255);
+}
+.resumeWrap{
+    margin-top: 250px;
+    text-align: center;
 }

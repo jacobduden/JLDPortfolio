@@ -52,7 +52,7 @@ const portfolioInfo = [
 ]
 return(
     <div className='container'>
-       <div className='row'>
+       <div className='row portWrap'>
            {portfolioInfo.map(portInfo =>{
                return (portfolioInfo.indexOf(portInfo),
                <Card key={portfolioInfo.name} portInfo={portInfo}></Card>)
