@@ -1,11 +1,14 @@
 {
   "name": "JLDPortfolio",
+  "homepage": "https://jacobduden.github.io/JLDPortfolio/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd photo-port && npm start"
+    "start": "cd photo-port && npm start",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,10 +20,12 @@
   "bugs": {
     "url": "https://github.com/jacobduden/JLDPortfolio/issues"
   },
-  "homepage": "https://github.com/jacobduden/JLDPortfolio#readme",
+  
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "mongodb": "^3.6.10",
     "mongoose": "^5.13.2",
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-scripts": "^4.0.3"
   }
 }
